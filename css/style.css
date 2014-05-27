@@ -1,0 +1,185 @@
+/* Set Elements by types*/
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	background-color: #7BB7FF; 
+	min-width: 600; 
+}
+
+
+header, section, footer{
+	background-color: #88FDFF;
+	margin: 15px 10% 3px 10%;
+
+	padding: 5px 10px 15px 10px;
+	border: 2px black solid;
+	border-radius: 8px;
+}
+
+h3 { 
+	text-align: center;
+}
+
+h4.standalone { margin-left: 40px; }
+
+/* Set reusable classes */
+
+
+.lime{ 
+	background-color: #7BFFB7;
+	border: 1px silver solid;
+	border-radius: 18px;
+}
+
+.whitesmoke{ 
+	background-color: whitesmoke; 
+	margin: 0 10px 5px 10px;
+	padding: 15px 8px;
+
+	border: 1px black solid;
+	border-radius: 15px;
+}
+
+.purple{ 
+	background-color: #D1D4FF;
+	border-radius: 15px;
+}
+
+.left-float{ float: left; }
+.right-float{ float: right; }
+
+
+.icon{ 	
+	padding: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+
+	max-width: 40px;
+	max-height: 40px;	
+}
+
+.logo{ 	
+	max-width: 150px;
+	max-height: 100px; 
+}
+
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+/*.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: block;
+}
+
+.clearfix:after{
+	clear:both;
+}*/
+
+
+/* Header classes */
+
+.header{
+	text-align: center;
+}
+
+.header p{
+	text-align: justify;
+}
+
+.about{
+	margin: 0 2%;
+}
+
+/* Education and Work Sections classes */
+
+
+.left-details{
+	width: 20%;
+	text-align: center;
+	border-right: 1px white solid;
+}
+
+.right-details{
+	padding-left: 10px; 
+	width: 80%;
+}
+
+.right-details h4{
+	margin-top: 0;
+}
+
+.achievement-list{
+	float: left; 
+	width: 30%;
+	padding: 10px 15px 0 15px;
+	margin: 0 1.5% 5px 1.5%;
+	height: 240px;
+	text-align: center;
+}
+
+.achievement-list p{
+	text-align: justify;
+}
+
+.achievement-logo-holder{
+	text-align: center;
+	height: 30%;
+}
+
+/* Skills Section classes */
+
+.skills h4{
+	position: relative; 
+	top: 10px;
+	margin-top: 0;
+}
+
+.primary-list{
+	list-style: circle;
+}
+
+.tertiary-list{
+	list-style: none ;
+}
+
+.code-list{
+	float: left; 
+	width: 20%;
+	margin: 0 2.5% 5px 2.5%;
+	height: 240px;
+	padding: 0 8px;
+}
+
+.code-list h5{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.other-skill-list{
+	height: 240px;
+	float: left; 
+	width: 30%;
+	margin: 0 1.5% 0 1.5%;
+	padding-right: 10px;
+}
+
+/* Footer Classes */
+
+.footer-panel{
+	width: 46%;
+	margin: 15px 2% 0 2%;
+	float: left;
+	height: 170px;
+}
